@@ -5,9 +5,11 @@ Demo project for highlighting the mACS process using the SimpleCateg approach.
 
 It showcases all the output phases of mACS in a project in which an unallowed dependency is present.
 
-The MVC unallowed dependedency resides in the [CustomView.swift](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/View/WrongView.swift) which is forbbiden in Apple's MVC.
+The MVC unallowed dependedency resides in the [WrongView.swift](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/View/WrongView.swift) which is forbbiden in Apple's MVC.
 
 This wrong dependency is correctly identified by mACS.
+
+The codebase uses an coordinator [AppDelegate](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/AppDelegate.swift) which is wrongly detected by the SimpleCateg approach.
 
 ## Codebase
 
