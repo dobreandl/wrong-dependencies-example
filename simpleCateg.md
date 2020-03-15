@@ -16,20 +16,40 @@ This wrong dependency is correctly identified by mACS.
 ## Detection
 
 * [Model](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/Model/Model.swift)
-* [WrongView]https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/View/WrongView.swift)
+* [WrongView](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/View/WrongView.swift)
 * [CorrectView](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/View/CorrectView.swift)
 * [ViewController](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/ViewController.swift)
 * [AppDelegate](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/AppDelegate.swift)
 
 
-## Extraction phase output
+## Extraction
 
-* [Model](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/json/model.json)
-* [View](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/json/view.json)
-* [Controller](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/json/view_controller.json)
+* [Components Graph](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/graphs/extraction.png)
 
-## MVC Analysis results
 
-* [Results](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/results/Screenshot%202020-03-14%20at%2012.28.27.png)
+## Categorisation
+
+### Model
+
+* [Model](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/Model/Model.swift)
+* [AppDelegate](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/AppDelegate.swift)
+
+### View
+
+* [WrongView](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/View/WrongView.swift)
+* [CorrectView](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/View/CorrectView.swift)
+
+### Controller
+
+* [ViewController](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/ViewController.swift)
+
+## MVC Analysis
+
+### Wrong dependencies graph
+
+![alt text](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/graphs/wrongSimple.png)
+
+* [Wrong Dependencies Graph](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/graphs/wrongSimple.png)
+* [Result](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/results/simpleCateg.png)
 
 
