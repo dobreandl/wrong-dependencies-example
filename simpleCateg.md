@@ -22,9 +22,9 @@ This wrong dependency is correctly identified by mACS.
 * [AppDelegate](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/AppDelegate.swift)
 
 
-## Extraction
+## Extraction Graph
 
-* [Components Graph](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/graphs/extraction.png)
+![alt text](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/graphs/extraction.png)
 
 
 ## Categorisation
@@ -49,7 +49,8 @@ This wrong dependency is correctly identified by mACS.
 
 ![alt text](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/graphs/wrongSimple.png)
 
-* [Wrong Dependencies Graph](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/graphs/wrongSimple.png)
-* [Result](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/results/simpleCateg.png)
+### Analysis results
+
+![alt text](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/results/simpleCateg.png)
 
 
