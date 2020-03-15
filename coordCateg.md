@@ -1,7 +1,7 @@
 
 # Description
 
-Demo project for highlighting the mACS process using the SimpleCateg approach.
+Demo project for highlighting the mACS process using the CoordCateg approach.
 
 It showcases all the output phases of mACS in a project in which an unallowed dependency is present.
 
@@ -9,7 +9,7 @@ The MVC unallowed dependedency resides in the [WrongView.swift](https://github.c
 
 This wrong dependency is correctly identified by mACS.
 
-The codebase uses an coordinator [AppDelegate](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/AppDelegate.swift) which is wrongly detected by the SimpleCateg approach.
+The codebase uses an coordinator [AppDelegate](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/AppDelegate.swift) which is correctly detected by the CoordCateg approach.
 
 ## Codebase
 
@@ -34,7 +34,6 @@ The codebase uses an coordinator [AppDelegate](https://github.com/dobreandl/wron
 ### Model
 
 * [Model](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/Model/Model.swift)
-* [AppDelegate](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/AppDelegate.swift)
 
 ### View
 
@@ -44,15 +43,16 @@ The codebase uses an coordinator [AppDelegate](https://github.com/dobreandl/wron
 ### Controller
 
 * [ViewController](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/ViewController.swift)
+* [AppDelegate](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/demoWrongDependencies/AppDelegate.swift)
 
 ## MVC Analysis
 
 ### Wrong dependencies graph
 
-![alt text](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/graphs/wrongSimple.png)
+![alt text](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/graphs/wrongCoordinators.png)
 
 ### Analysis results
 
-![alt text](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/results/simpleCateg.png)
+![alt text](https://github.com/dobreandl/wrong-dependencies-example/blob/master/demoWrongDependencies/results/coordCateg.png)
 
 
